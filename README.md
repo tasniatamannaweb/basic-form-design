@@ -6,7 +6,7 @@ This project is for practice purposes to understand form elements, labels, place
 
 ---
 
-## 🚀 Features
+## Features
 - Input fields (text, email, contact, etc.)
 - Textarea for messages
 - Radio buttons and checkboxes
@@ -15,4 +15,4 @@ This project is for practice purposes to understand form elements, labels, place
 
 ---
 
-## Live Link- 
+## Live Link- https://tasniatamannaweb.github.io/basic-form-design/ 
