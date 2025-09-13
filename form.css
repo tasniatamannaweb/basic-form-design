@@ -41,30 +41,32 @@ input{
     font-style: italic;
     padding: 5px;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .gender{
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 0 auto;
 }
 
 .gend {
-    margin-left: 10px;
-    font-size: 18px; 
+    margin-left: 0 auto;
+    font-size: 14px; 
     font-family: 'Times New Roman'; 
     font-style: italic;
+    padding: 0 auto;
 }
 
 .education{
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 0 auto;
 }
 
 .edu {
-    margin-left: 10px;
-    font-size: 18px; 
+    margin-left: 0 auto;
+    font-size: 14px; 
     font-family: 'Times New Roman'; 
     font-style: italic;
 }
@@ -80,23 +82,36 @@ textarea{
     font-style: italic;
     padding: 5px;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 button{
     width: 80px;
     height: 40px;
-    border: solid darkred 2px;
-    font-size: 14px; 
+    border: solid black 2px;
+    font-size: 16px; 
     text-align: center; 
     font-family: times new roman;
-    color: darkgreen; 
+    color: yellow; 
     font-style: italic;
     font-weight: bolder;
     padding: 10px;
     margin-bottom: 20px;
+    cursor: pointer;
+    background-color: green;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkred;
+    color: yellow;
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    border-radius: 2px;
 }
 
 .button_group{
     display: flex;
-    gap: 155px;
+    gap: 160px;
 }
+
